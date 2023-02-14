@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(2, 2, 41);
+    color: white;
+    font-size: 2.5vw;
+}
+h1{
+    text-align: center;
+    margin: 30px 0;
+}
+.inputs{
+    display: flex;
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+input[type = "text"]{
+    padding: 20px;
+    border: none;
+    outline: none;
+    width: 40%;
+    border-radius: 5px;
+   letter-spacing: 1px;
+   
+}
+button{
+  all: unset;  
+  padding: 20px;
+  background-color: white;
+  background: rgb(205, 43, 226);
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+}
+#delete-all{
+    width: fit-content;
+    margin: 10px auto;
+}
+.tasks{
+    width: 90%;
+    margin: 70px auto;  
+}
+.tasks div{
+    padding: 5px;
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:  black;
+background: white;
+}
+.tasks div p{
+    cursor: pointer;
+
+}
+i{
+    margin: 0 10px;
+    cursor: pointer;
+   color: rgb(16, 16, 184);
+  
+}
+i:hover{
+    color:rgb(205, 43, 226) ;
+    
+}
+.marked{
+    text-decoration: line-through blue 3px ;
+ 
+}
